@@ -1,0 +1,1186 @@
+{
+    "DATABASE":
+    {
+        "connection": "mongodb://172.31.24.77:27017/",
+        "collection": "musleh-api",
+        "document": "ssdm"
+    },
+    "JB_DETAIL": [
+        {
+            "NAME": "KV (ERT) AZIZAH",
+            "mongoDB_ID": "62be7e6b2c4f0076ae234da2",
+            "ID": "JHA1002",
+            "PASS": "DISPJHA1002",
+            "EMAIL": "admin.kvazizah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "KV PERDAGANGAN",
+            "mongoDB_ID": "62be6c585ca4f672d36f1f85",
+            "ID": "JHA1003",
+            "PASS": "PKHEMjha1003",
+            "EMAIL": "admin.kvperdagangan@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "KV TANJUNG PUTERI",
+            "mongoDB_ID": "62be975663aedd733f72848e",
+            "ID": "JHA1001",
+            "PASS": "Hepkvtp01",
+            "EMAIL": "admin.kvtanjungputeri@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "MAKTAB SULTAN ABU BAKAR",
+            "mongoDB_ID": "62bc4fdf9ab3130ba0599d31",
+            "ID": "JEB1001",
+            "PASS": "DispJEB1001",
+            "EMAIL": "maktabsultanabubakar@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SEKOLAH TUN FATIMAH",
+            "mongoDB_ID": "62bd4c079ab3130ba059d65e",
+            "ID": "JEB1009",
+            "PASS": "DISPJEB1009",
+            "EMAIL": "admin.sktunfatimah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) CHEAH FAH",
+            "mongoDB_ID": "62b9dba85ca4f672d36ee96b",
+            "ID": "JBC1050",
+            "PASS": "Ssdm1050",
+            "EMAIL": "admin.sjkccheahfah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) FOON YEW 1",
+            "mongoDB_ID": "62b97c5263aedd733f7226d5",
+            "ID": "JBC1003",
+            "PASS": "Ab831005",
+            "EMAIL": "admin.sjkcfoonyew1@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) FOON YEW 2",
+            "mongoDB_ID": "62bc83419ab3130ba059b1f5",
+            "ID": "JBC1004",
+            "PASS": "guruJBC1004",
+            "EMAIL": "admin.sjkcfoonyew2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) FOON YEW 3",
+            "mongoDB_ID": "62be683b2c4f0076ae23466d",
+            "ID": "JBC1005",
+            "PASS": "FY3jbc0368",
+            "EMAIL": "admin.sjkcfoonyew3@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) FOON YEW 4",
+            "mongoDB_ID": "62bd2cb39ab3130ba059d166",
+            "ID": "JBC1006",
+            "PASS": "Tan720108",
+            "EMAIL": "admin.sjkcfoonyew4@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) KEMPAS BARU",
+            "mongoDB_ID": "62bab9119ab3130ba05964eb",
+            "ID": "JBC1036",
+            "PASS": "DISPjbc1036",
+            "EMAIL": "admin.sjkckempasbaru@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) KUO KUANG 2",
+            "mongoDB_ID": "62b955f92c4f0076ae22f4d2",
+            "ID": "JBC1037",
+            "PASS": "Abcd1234",
+            "EMAIL": "admin.sjkckk2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) KUO KUANG",
+            "mongoDB_ID": "62bc6d615ca4f672d36f08ef",
+            "ID": "JBC1008",
+            "PASS": "Dispjbc1008",
+            "EMAIL": "admin.sjkckuokuang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) MING CHIH",
+            "mongoDB_ID": "62bd1a9dd511a8311b58204d",
+            "ID": "JBC1045",
+            "PASS": "Dispjbc1045",
+            "EMAIL": "admin.sjkcmingchih@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) MING TERK",
+            "mongoDB_ID": "62bd04705ca4f672d36f10f5",
+            "ID": "JBC1020",
+            "PASS": "Gpmt78910",
+            "EMAIL": "admin.sjkcmingterk@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) PAI TZE",
+            "mongoDB_ID": "62bc56e35ca4f672d36ef70b",
+            "ID": "JBC1044",
+            "PASS": "DISPjbc1044",
+            "EMAIL": "admin.sjkcpaitze@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) PEI HWA",
+            "mongoDB_ID": "62b95bc6e7fbb40bd99cff4e",
+            "ID": "JBC1021",
+            "PASS": "GURUjbc1021",
+            "EMAIL": "admin.sjkcpeihwa@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) PING MING",
+            "mongoDB_ID": "62ba63cf63aedd733f722dce",
+            "ID": "JBC1022",
+            "PASS": "Dispjbc1022",
+            "EMAIL": "admin.sjkcpingming@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) PU SZE",
+            "mongoDB_ID": "62b967895ca4f672d36ee37a",
+            "ID": "JBC1023",
+            "PASS": "Ps5561230",
+            "EMAIL": "admin.sjkcpusze@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) ST JOSEPH",
+            "mongoDB_ID": "62b9c6e52c4f0076ae22fd36",
+            "ID": "JBC1012",
+            "PASS": "33313Jbc1012",
+            "EMAIL": "admin.sjkcstjoseph@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) TAMPOI",
+            "mongoDB_ID": "62be76fdc3920f72b6d4d016",
+            "ID": "JBC1013",
+            "PASS": "sekJBC1013",
+            "EMAIL": "admin.sjkctampoi@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) THAI HONG",
+            "mongoDB_ID": "62bd594f2c4f0076ae234185",
+            "ID": "JBC1043",
+            "PASS": "Ssdm1043",
+            "EMAIL": "admin.sjkcthaihong@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (CINA) THORBURN",
+            "mongoDB_ID": "62bc81c8e7fbb40bd99d2469",
+            "ID": "JBC1042",
+            "PASS": "Ssdm1042",
+            "EMAIL": "admin.sjkcthorburn@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (TAMIL) GELANG PATAH",
+            "mongoDB_ID": "62b9aa69e7fbb40bd99cffad",
+            "ID": "JBD1025",
+            "PASS": "DISPJBD1025g",
+            "EMAIL": "admin.sjktgelangpatah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (TAMIL) JALAN YAHYA AWAL",
+            "mongoDB_ID": "62bd2a5063aedd733f726bda",
+            "ID": "JBD1001",
+            "PASS": "dispJBD1001",
+            "EMAIL": "admin.sjktyahyaawal@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (TAMIL) LADANG BUKIT SERAMPANG",
+            "mongoDB_ID": "62be61e69ab3130ba059fd0c",
+            "ID": "JBD1028",
+            "PASS": "dispJBD1028",
+            "EMAIL": "admin.sjktladangbukitserampang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (TAMIL) LADANG RINI",
+            "mongoDB_ID": "62bd5cede7fbb40bd99d3234",
+            "ID": "JBD1022",
+            "PASS": "Theva2410",
+            "EMAIL": "admin.sjktladangrini@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SJK (TAMIL) TAMAN TUN AMINAH",
+            "mongoDB_ID": "62bc3f54c3920f72b6d461b2",
+            "ID": "JBD1026",
+            "PASS": "Disjbd1026",
+            "EMAIL": "admin.sjkttamantunaminah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK (P) BANDAR TINGGI",
+            "mongoDB_ID": "62b971f2c3920f72b6d3df12",
+            "ID": "JBA1008",
+            "PASS": "SsdmJBA1008",
+            "EMAIL": "admin.skpbandartinggi@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK (P) JLN. YAHYA AWAL",
+            "mongoDB_ID": "62ba65125ca4f672d36ee98e",
+            "ID": "JBB1009",
+            "PASS": "Ha9kruci",
+            "EMAIL": "admin.skpyahyaawal@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK (P) SULTAN IBRAHIM",
+            "mongoDB_ID": "62bc66565ca4f672d36f01e4",
+            "ID": "JBB1008",
+            "PASS": "Sigs2021",
+            "EMAIL": "admin.skpsibrahim@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK ANGKATAN TENTERA",
+            "mongoDB_ID": "62bd528f68bfb10662447c3b",
+            "ID": "JBA1011",
+            "PASS": "jba1011DISP",
+            "EMAIL": "admin.skangkatantentera@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK AYER MOLEK",
+            "mongoDB_ID": "62b9d49c7fc6d24254c344d9",
+            "ID": "JBA1001",
+            "PASS": "Dispjba1001",
+            "EMAIL": "admin.skayermolek@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK BANDAR UDA 2",
+            "mongoDB_ID": "62bcfc08ba27c90500f7e53c",
+            "ID": "JBA1065",
+            "PASS": "Sekolah1065",
+            "EMAIL": "admin.skbandaruda2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK BUKIT MUTIARA",
+            "mongoDB_ID": "62bc02075ca4f672d36ef4d3",
+            "ID": "JBA1116",
+            "PASS": "SKBMjba1116",
+            "EMAIL": "admin.skbukitmutiara@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK GELANG PATAH",
+            "mongoDB_ID": "62bd3e875ca4f672d36f1683",
+            "ID": "JBA1029",
+            "PASS": "Skgp1029",
+            "EMAIL": "admin.skgelangpatah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK INFANT JESUS CONVENT",
+            "mongoDB_ID": "62bc6b3f2c4f0076ae232a2f",
+            "ID": "JBB1011",
+            "PASS": "JBB1011cnvt",
+            "EMAIL": "admin.skijconvent@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK KAMPUNG PULAI",
+            "mongoDB_ID": "62be5add2c8a13654eb46186",
+            "ID": "JBA1051",
+            "PASS": "Dispjba1051",
+            "EMAIL": "admin.skkampungpulai@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK KEMPAS",
+            "mongoDB_ID": "62bd28499ab3130ba059d146",
+            "ID": "JBA1049",
+            "PASS": "Sekam1049",
+            "EMAIL": "admin.skkempas@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK KG PASIR",
+            "mongoDB_ID": "62be5b3b9ab3130ba059fcde",
+            "ID": "JBA1035",
+            "PASS": "dispJBA1035",
+            "EMAIL": "admin.skkgpasir@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK KG. MAJU JAYA",
+            "mongoDB_ID": "62bb1a772c4f0076ae230d1d",
+            "ID": "JBA1024",
+            "PASS": "Dispjba1024",
+            "EMAIL": "admin.skkgmajujaya@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK KOMPLEKS SULTAN ABU BAKAR",
+            "mongoDB_ID": "62be963a2c4f0076ae234daa",
+            "ID": "JBA1086",
+            "PASS": "JBA1086disp",
+            "EMAIL": "admin.skkompleksultanabubakar@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK KOMPLEKS UDA",
+            "mongoDB_ID": "62bbcf3b63aedd733f7242bf",
+            "ID": "JBA1055",
+            "PASS": "Ssdmjba1055",
+            "EMAIL": "admin.skkompleksuda@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK LADANG PENDAS",
+            "mongoDB_ID": "62b94f272c4f0076ae22f4b4",
+            "ID": "JBA1033",
+            "PASS": "Disiplin1033",
+            "EMAIL": "admin.skladangpendas@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK LARKIN 1",
+            "mongoDB_ID": "62be59872c4f0076ae234330",
+            "ID": "JBB1003",
+            "PASS": "Jbb1003g",
+            "EMAIL": "admin.sklarkin1@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK LARKIN 2",
+            "mongoDB_ID": "62b9d6d92c8a13654eb42b6f",
+            "ID": "JBB1004",
+            "PASS": "Dispjbb1004",
+            "EMAIL": "admin.sekkeblarkin2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK MAJIDI BARU",
+            "mongoDB_ID": "62bbca8d2c4f0076ae231951",
+            "ID": "JBA1012",
+            "PASS": "SKMBjba1012",
+            "EMAIL": "admin.skmajidibaru@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK MEDINI",
+            "mongoDB_ID": "633501081875b80d2d877fc3",
+            "ID": "JBA1133",
+            "PASS": "Gurujba1133",
+            "EMAIL": "admin.skmedini@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK MOHD KHIR JOHARI",
+            "mongoDB_ID": "62bd42a82c8a13654eb45fea",
+            "ID": "JBA1010",
+            "PASS": "Ssdmjba1010",
+            "EMAIL": "admin.skmohdkhirjohari@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK MORNI POK",
+            "mongoDB_ID": "62b9d9cf2c8a13654eb42b75",
+            "ID": "JBA1047",
+            "PASS": "Jba1047jb",
+            "EMAIL": "admin.skmornipok@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK NGEE HENG",
+            "mongoDB_ID": "62b9ca7063aedd733f7227f7",
+            "ID": "JBB1006",
+            "PASS": "Dispjbb1006",
+            "EMAIL": "admin.skngeeheng@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK NONG CHIK",
+            "mongoDB_ID": "62be796ae7fbb40bd99d3617",
+            "ID": "JBA1057",
+            "PASS": "HEMjba1057",
+            "EMAIL": "admin.sknongchik@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK NUSANTARA",
+            "mongoDB_ID": "62bd029963aedd733f725ee0",
+            "ID": "JBA1127",
+            "PASS": "SKNj1127",
+            "EMAIL": "admin.sknusantara@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK PENDAS LAUT",
+            "mongoDB_ID": "62b954e063aedd733f7223ab",
+            "ID": "JBA1034",
+            "PASS": "Skpendas123",
+            "EMAIL": "admin.skpendaslaut@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK PENDIDIKAN KHAS JOHOR BAHRU",
+            "mongoDB_ID": "62b94b51e7fbb40bd99cff2b",
+            "ID": "JBA1062",
+            "PASS": "Skpkjb1062",
+            "EMAIL": "admin.skpkjohorbharu@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK PENDIDIKAN KHAS PRINCESS ELIZABETH",
+            "mongoDB_ID": "62b57b6a2971ec06dd4c3552",
+            "ID": "JCB1001",
+            "PASS": "DispJCB1001",
+            "EMAIL": "admin.skpkprincesselizabeth@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK PENGKALAN RINTING",
+            "mongoDB_ID": "62bd26b1c3920f72b6d496e2",
+            "ID": "JBA1003",
+            "PASS": "DispJBA1003",
+            "EMAIL": "admin.skpengkalanrinting@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK PERUMAHAN TAMPOI 2",
+            "mongoDB_ID": "62bc5d3d9ab3130ba059a0e9",
+            "ID": "JBA1070",
+            "PASS": "Skpt2JBA1070",
+            "EMAIL": "admin.skptampoi2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SEKUDAI BT 10",
+            "mongoDB_ID": "62bd42d02c4f0076ae233ff1",
+            "ID": "JBA1030",
+            "PASS": "ssdmSB10",
+            "EMAIL": "admin.sksekudaibt10@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SERI KENANGA",
+            "mongoDB_ID": "62bd1aace7fbb40bd99d3213",
+            "ID": "JBA1037",
+            "PASS": "Dsksk1037",
+            "EMAIL": "admin.skserikenanga@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SERI MELATI",
+            "mongoDB_ID": "62be671b63aedd733f727bd0",
+            "ID": "JBA1061",
+            "PASS": "Dispjba1061",
+            "EMAIL": "admin.skserimelati@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SERI PERLING 2",
+            "mongoDB_ID": "62bc0bad9ab3130ba0599592",
+            "ID": "JBA1069",
+            "PASS": "Fairul83",
+            "EMAIL": "admin.skseriperling2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SIKIJANG",
+            "mongoDB_ID": "62b9466863aedd733f721f2a",
+            "ID": "JBA1032",
+            "PASS": "Sikijang1032",
+            "EMAIL": "admin.sksikijang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SRI AMAR",
+            "mongoDB_ID": "62be63df6005f13ef5ccfa9c",
+            "ID": "JBA1056",
+            "PASS": "Dispjba1056",
+            "EMAIL": "admin.sksriamar@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SRI SKUDAI",
+            "mongoDB_ID": "62bc53885ca4f672d36ef705",
+            "ID": "JBA1036",
+            "PASS": "sekJBA1036",
+            "EMAIL": "admin.sksriskudai@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SRI TEBRAU",
+            "mongoDB_ID": "62a6ff0f39b6c27f79527eb2",
+            "ID": "JBA1054",
+            "PASS": "RAzliNA8410",
+            "EMAIL": "admin.skst@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK ST. JOSEPH",
+            "mongoDB_ID": "62be7573c3920f72b6d4d010",
+            "ID": "JBB1005",
+            "PASS": "DisdmJbb1005",
+            "EMAIL": "admin.skstjoseph@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SUNGAI DANGA",
+            "mongoDB_ID": "62b9c3f963aedd733f7227f1",
+            "ID": "JBA1050",
+            "PASS": "SsdmJBA1050",
+            "EMAIL": "admin.sksungaidanga@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK SUNGAI MELAYU",
+            "mongoDB_ID": "62946a8e5638110cc2bee329",
+            "ID": "JBA1031",
+            "PASS": "DISPjba1031",
+            "EMAIL": "admin.sksungaimelayu@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN ANGGERIK",
+            "mongoDB_ID": "62bd4ee89ab3130ba059d7ff",
+            "ID": "JBA1095",
+            "PASS": "dispJBA1095",
+            "EMAIL": "admin.sktamananggerik@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN BUKIT INDAH",
+            "mongoDB_ID": "5f0137b08945be67c364274a",
+            "ID": "JBA1115",
+            "PASS": "DispJBA1115",
+            "EMAIL": "admin.sktamanbukitindah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN BUKIT KEMPAS",
+            "mongoDB_ID": "62ba6a335ca4f672d36ee994",
+            "ID": "JBA1094",
+            "PASS": "Khipsjba1094",
+            "EMAIL": "admin.sktmnbukitkempas@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN BUKIT MEWAH",
+            "mongoDB_ID": "62be77eae7fbb40bd99d3611",
+            "ID": "JBA1102",
+            "PASS": "Sktbm1102",
+            "EMAIL": "admin.sktmnbukitmewah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN CEMPAKA",
+            "mongoDB_ID": "62be59922c8a13654eb46180",
+            "ID": "JBA1082",
+            "PASS": "Sk1082tc",
+            "EMAIL": "admin.sktamancempaka@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN DAMAI JAYA",
+            "mongoDB_ID": "62bd15a15ca4f672d36f1101",
+            "ID": "JBA1076",
+            "PASS": "Dispjba1076",
+            "EMAIL": "admin.sktmndamaijaya@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN DAMANSARA ALIFF",
+            "mongoDB_ID": "62bbf9e5fc716752d936a693",
+            "ID": "JBA1130",
+            "PASS": "JBA1130SSDM",
+            "EMAIL": "admin.skdamansaraaliff@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN DESA SKUDAI",
+            "mongoDB_ID": "62be73a12c4f0076ae234912",
+            "ID": "JBA1112",
+            "PASS": "SSDMjba1112",
+            "EMAIL": "admin.sktmndesaskudai@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN IMPIAN EMAS",
+            "mongoDB_ID": "62ccee552c4f0076ae234f37",
+            "ID": "JBA1113",
+            "PASS": "Jba1113_ssdm",
+            "EMAIL": "admin.sktmnimpianemas@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN MUTIARA RINI 2",
+            "mongoDB_ID": "62baacd5c3920f72b6d4243c",
+            "ID": "JBA1126",
+            "PASS": "dispJBA1126",
+            "EMAIL": "admin.sktmnmutiararini2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN MUTIARA RINI",
+            "mongoDB_ID": "62ba8355018f2f3aee92bf64",
+            "ID": "JBA1093",
+            "PASS": "Sktmr1093",
+            "EMAIL": "admin.sktmnmutiararini@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN NUSA PERINTIS",
+            "mongoDB_ID": "62ba72fb63aedd733f722f42",
+            "ID": "JBA1111",
+            "PASS": "dispJBA1111",
+            "EMAIL": "admin.sktamannusa@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN PELANGI",
+            "mongoDB_ID": "62be5d466005f13ef5ccf8d6",
+            "ID": "JBA1059",
+            "PASS": "Pelangi1059",
+            "EMAIL": "admin.sktamanpelangi@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN PERLING",
+            "mongoDB_ID": "62bafe445ca4f672d36ef276",
+            "ID": "JBA1064",
+            "PASS": "Jba1064sktp",
+            "EMAIL": "admin.sktmnperling@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN PERLING 3",
+            "mongoDB_ID": "62bd572f63aedd733f7272ee",
+            "ID": "JBA1120",
+            "PASS": "Sktp31120",
+            "EMAIL": "admin.sktmnperling3@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN SELESA JAYA",
+            "mongoDB_ID": "62be62b1c3920f72b6d4cd9d",
+            "ID": "JBA1072",
+            "PASS": "Dispjba1072",
+            "EMAIL": "admin.sktmnselesajaya@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN SKUDAI BARU 2",
+            "mongoDB_ID": "62be5bade7fbb40bd99d3256",
+            "ID": "JBA1118",
+            "PASS": "Jba11182004",
+            "EMAIL": "admin.tmnskudaibaru2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN SKUDAI BARU",
+            "mongoDB_ID": "62c25651c3920f72b6d56603",
+            "ID": "JBA1084",
+            "PASS": "sekJBA1084",
+            "EMAIL": "admin.sktmnskudaibaru@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN SURIA",
+            "mongoDB_ID": "62ba7ee6e7fbb40bd99d0471",
+            "ID": "JBA1068",
+            "PASS": "Suria2021",
+            "EMAIL": "admin.sktamansuria@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN SUTERA",
+            "mongoDB_ID": "62ba60e663aedd733f722dac",
+            "ID": "JBA1109",
+            "PASS": "Jba111000",
+            "EMAIL": "admin.sktamansutera@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN TAMPOI UTAMA",
+            "mongoDB_ID": "62c65ff1568e8b72543b9a8a",
+            "ID": "JBA1123",
+            "PASS": "JBA1123ssdm",
+            "EMAIL": "admin.skttu@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN TUN AMINAH 2",
+            "mongoDB_ID": "62be91955ca4f672d36f23b5",
+            "ID": "JBA1074",
+            "PASS": "Dispjba1074",
+            "EMAIL": "admin.sktmntunaminah2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN TUN AMINAH",
+            "mongoDB_ID": "62be6453c3920f72b6d4ce03",
+            "ID": "JBA1060",
+            "PASS": "DISPJba1060",
+            "EMAIL": "admin.sktmntunaminah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN UNIVERSITI 1",
+            "mongoDB_ID": "62bab084e39d8e0c8b16f947",
+            "ID": "JBA1078",
+            "PASS": "DISPJBA1078",
+            "EMAIL": "admin.sktmnuniversiti1@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN UNIVERSITI 2",
+            "mongoDB_ID": "62be7b14c3920f72b6d4d225",
+            "ID": "JBA1071",
+            "PASS": "P3nd1d1kan11",
+            "EMAIL": "admin.sktamanuniversiti2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN UNIVERSITI 3",
+            "mongoDB_ID": "62be6b395ca4f672d36f1f7f",
+            "ID": "JBA1100",
+            "PASS": "Dispjba1100",
+            "EMAIL": "admin.sktmnuniversiti3@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TAMAN UNIVERSITI 4",
+            "mongoDB_ID": "62bbb6dd5ca4f672d36ef298",
+            "ID": "JBA1096",
+            "PASS": "Sekolah1096",
+            "EMAIL": "admin.sktmnuniversiti4@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TANJONG ADANG",
+            "mongoDB_ID": "62b9654fe7fbb40bd99cff5b",
+            "ID": "JBA1046",
+            "PASS": "guruJBA1046",
+            "EMAIL": "admin.sktanjongadang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TANJUNG PUTERI",
+            "mongoDB_ID": "62be6e045ca4f672d36f1f8c",
+            "ID": "JBA1004",
+            "PASS": "Sktpjba1004",
+            "EMAIL": "admin.sktanjungputeri@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TASEK UTARA",
+            "mongoDB_ID": "62bd521ac3920f72b6d49d50",
+            "ID": "JBA1119",
+            "PASS": "DispJBA1119",
+            "EMAIL": "admin.sktasekutara@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TEBRAU BAKAR BATU",
+            "mongoDB_ID": "62be51b46005f13ef5ccf614",
+            "ID": "JBA1026",
+            "PASS": "dispJBA1026",
+            "EMAIL": "admin.sktebraubakarbatu@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TEMENGGONG ABDUL RAHMAN 1",
+            "mongoDB_ID": "62be75722c8a13654eb46542",
+            "ID": "JBB1001",
+            "PASS": "DispStar1",
+            "EMAIL": "admin.sktar1@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TEMENGGONG ABDUL RAHMAN 2",
+            "mongoDB_ID": "62be58272c8a13654eb46179",
+            "ID": "JBB1002",
+            "PASS": "Star2jbb1002",
+            "EMAIL": "admin.sktemenggongabdulrahman2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TG KUPANG",
+            "mongoDB_ID": "62b96a735ca4f672d36ee391",
+            "ID": "JBA1048",
+            "PASS": "DispJba1048",
+            "EMAIL": "admin.sktgkupang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SK TIRAM DUKU",
+            "mongoDB_ID": "62b9cdf55ca4f672d36ee964",
+            "ID": "JBA1045",
+            "PASS": "Dispjba1045",
+            "EMAIL": "admin.sktiramduku@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SM TEKNIK JOHOR BAHRU",
+            "mongoDB_ID": "62be91382c8a13654eb469e8",
+            "ID": "JKE1001",
+            "PASS": "Smtjb1001",
+            "EMAIL": "admin.smtjb@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMA AL QURAN WADDIN",
+            "mongoDB_ID": "62ba6c922c4f0076ae2305de",
+            "ID": "JFT1002",
+            "PASS": "D1s1pl1n",
+            "EMAIL": "admin.smaalquranwaddin@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK (P) SULTAN IBRAHIM",
+            "mongoDB_ID": "62bc5f1f63aedd733f724bf3",
+            "ID": "JEB1005",
+            "PASS": "DispJEB1005",
+            "EMAIL": "admin.smkpsultanibrahim@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK AMINUDDIN BAKI",
+            "mongoDB_ID": "62bc4d3fe7fbb40bd99d121a",
+            "ID": "JEB1003",
+            "PASS": "Guru1234",
+            "EMAIL": "admin.smkaminuddinbaki@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK BANDAR BARU UDA",
+            "mongoDB_ID": "62bd088f9ab3130ba059c34e",
+            "ID": "JEA1048",
+            "PASS": "SmkbbuJB2022",
+            "EMAIL": "admin.smkbandarbaruuda@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK BANDAR UDA UTAMA",
+            "mongoDB_ID": "62bd0f149ab3130ba059c934",
+            "ID": "JEA1096",
+            "PASS": "DISPjea1096",
+            "EMAIL": "admin.smkbandarudautama@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK DAMAI JAYA",
+            "mongoDB_ID": "62bc84385ca4f672d36f10dd",
+            "ID": "JEA1054",
+            "PASS": "Ssdm1054",
+            "EMAIL": "admin.smkdamaijaya@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK DATO ABDUL RAHMAN YASSIN",
+            "mongoDB_ID": "62bbb8905ca4f672d36ef29e",
+            "ID": "JEE1008",
+            "PASS": "Dispjee1008",
+            "EMAIL": "admin.smkdary@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK DATO JAAFAR",
+            "mongoDB_ID": "62be927c5ca4f672d36f23bb",
+            "ID": "JEB1002",
+            "PASS": "SMKDJbt1002",
+            "EMAIL": "admin.smkdatojaafar@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK DATO' USMAN AWANG",
+            "mongoDB_ID": "62bc70f3e7fbb40bd99d170c",
+            "ID": "JEA1058",
+            "PASS": "Smk2jea1058",
+            "EMAIL": "admin.smkdatousmanawang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK GELANG PATAH",
+            "mongoDB_ID": "62bd0611c3920f72b6d49557",
+            "ID": "JEE1004",
+            "PASS": "Smkgp1004",
+            "EMAIL": "admin.smkgelangpatah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK IMPIAN EMAS",
+            "mongoDB_ID": "62bc7d8aea389f702dfe2614",
+            "ID": "JEA1072",
+            "PASS": "Displinjea10",
+            "EMAIL": "admin.smkimpianemas@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK INFANT JESUS CONVENT",
+            "mongoDB_ID": "62bc64a763aedd733f724bfc",
+            "ID": "JEB1006",
+            "PASS": "JEB1006cnvt",
+            "EMAIL": "admin.infantjesusconvent@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK KOMPLEKS SULTAN ABU BAKAR",
+            "mongoDB_ID": "62be66bd63aedd733f727bc4",
+            "ID": "JEA1056",
+            "PASS": "ksabJEA1056",
+            "EMAIL": "admin.smkkompleksultanabubakar@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK MAJIDI BARU 2",
+            "mongoDB_ID": "62bd07bb9ab3130ba059c348",
+            "ID": "JEA1097",
+            "PASS": "JEA1097mb2",
+            "EMAIL": "admin.smkmajidibaru2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK MEDINI",
+            "mongoDB_ID": "62be739c9e943a457d697ff7",
+            "ID": "JEA1098",
+            "PASS": "Medini1098",
+            "EMAIL": "admin.smkmedini@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK MOHD KHALID",
+            "mongoDB_ID": "62be956a9ab3130ba05a07e9",
+            "ID": "JEA1090",
+            "PASS": "Smkmk1090",
+            "EMAIL": "admin.smkmohdkhalid@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK MUTIARA RINI",
+            "mongoDB_ID": "62bc61692c8a13654eb450a0",
+            "ID": "JEA1059",
+            "PASS": "Jea105933",
+            "EMAIL": "admin.smkmutiararini@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SAINT JOSEPH",
+            "mongoDB_ID": "62be5e8c63aedd733f727b39",
+            "ID": "JEB1004",
+            "PASS": "Akhl4kS3njo",
+            "EMAIL": "admin.smksaintjoseph@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SERI PERLING",
+            "mongoDB_ID": "62ba6b699ab3130ba0595b39",
+            "ID": "JEA1050",
+            "PASS": "Jea1050ff",
+            "EMAIL": "admin.smkseriperling@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SKUDAI",
+            "mongoDB_ID": "62bc85ac2c4f0076ae233800",
+            "ID": "JEA1006",
+            "PASS": "Disp6666",
+            "EMAIL": "admin.smkskudai@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SRI RAHMAT",
+            "mongoDB_ID": "62bc7602c3920f72b6d47042",
+            "ID": "JEA1005",
+            "PASS": "Sahsiah01",
+            "EMAIL": "smksrirahmat.qr@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SRI TEBRAU",
+            "mongoDB_ID": "62ba77c263aedd733f722f84",
+            "ID": "JEA1004",
+            "PASS": "Dispjea1004",
+            "EMAIL": "admin.smksritebrau@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SULTAN ISMAIL",
+            "mongoDB_ID": "64c284c964d98b53472117d2",
+            "ID": "JEA1001",
+            "PASS": "DISPjea1001",
+            "EMAIL": "admin.smksultanismail@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK SULTANAH ENGKU TUN AMINAH",
+            "mongoDB_ID": "62be6eb963aedd733f728375",
+            "ID": "JEB1007",
+            "PASS": "ssdmJEB1007",
+            "EMAIL": "admin.smkseta@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN BUKIT INDAH",
+            "mongoDB_ID": "62b97a7a9ab3130ba059337f",
+            "ID": "JEA1087",
+            "PASS": "Dispjea1087",
+            "EMAIL": "admin.smktamanbukitindah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN DAMANSARA ALIFF",
+            "mongoDB_ID": "62bc7019c3920f72b6d47003",
+            "ID": "JEA1095",
+            "PASS": "g",
+            "EMAIL": "admin.smktda@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN DESA SKUDAI",
+            "mongoDB_ID": "62bbbe1ac3920f72b6d4578c",
+            "ID": "JEA1077",
+            "PASS": "Dispjea1077",
+            "EMAIL": "admin.smktmndesaskudai@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN MUTIARA RINI 2",
+            "mongoDB_ID": "62bc7a512c8a13654eb45243",
+            "ID": "JEA1085",
+            "PASS": "Dispjea1085",
+            "EMAIL": "admin.smktmnmutiararini2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN NUSAJAYA",
+            "mongoDB_ID": "62bc65eaea389f702dfe1dd3",
+            "ID": "JEA1086",
+            "PASS": "Tnjea1086",
+            "EMAIL": "admin.smktamannusajaya@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN PELANGI",
+            "mongoDB_ID": "62be7dc3c3920f72b6d4d28d",
+            "ID": "JEA1044",
+            "PASS": "Smktp1044",
+            "EMAIL": "admin.smktamanpelangi@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN SELESA JAYA 2",
+            "mongoDB_ID": "62bbc77ae7fbb40bd99d0850",
+            "ID": "JEA1084",
+            "PASS": "Dispjea1084",
+            "EMAIL": "admin.smktmnselesajaya2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN SELESA JAYA",
+            "mongoDB_ID": "62bbef635ca4f672d36ef2b3",
+            "ID": "JEA1062",
+            "PASS": "Selesa1062",
+            "EMAIL": "admin.smktmnselesajaya@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN SUTERA",
+            "mongoDB_ID": "62bb1edfe7fbb40bd99d082a",
+            "ID": "JEA1088",
+            "PASS": "DISPjea1088",
+            "EMAIL": "admin.smktamansutera@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN TUN AMINAH",
+            "mongoDB_ID": "62bd14b99ab3130ba059c979",
+            "ID": "JEA1046",
+            "PASS": "Dispjea1046",
+            "EMAIL": "admin.smktmntunaminah@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN UNIVERSITI 2",
+            "mongoDB_ID": "62bb05c5e7fbb40bd99d0627",
+            "ID": "JEA1061",
+            "PASS": "guruJEA1061",
+            "EMAIL": "admin.smktmnuniversiti2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAMAN UNIVERSITI",
+            "mongoDB_ID": "62ba67872c4f0076ae230160",
+            "ID": "JEA1049",
+            "PASS": "Dispjea1049",
+            "EMAIL": "admin.smktamanuniversiti@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TAN SRI MOHAMED RAHMAT",
+            "mongoDB_ID": "62bc6e8c2c8a13654eb4523b",
+            "ID": "JEA1055",
+            "PASS": "Dispjea1055",
+            "EMAIL": "admin.smktansrimohamedrahmat@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TANJUNG ADANG",
+            "mongoDB_ID": "62b9d1262c4f0076ae22fd3c",
+            "ID": "JEA1043",
+            "PASS": "Dispjea1043",
+            "EMAIL": "admin.smktanjungadang@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TASEK UTARA 2",
+            "mongoDB_ID": "62bb23c7e7fbb40bd99d0830",
+            "ID": "JEA1079",
+            "PASS": "DISPjea1079",
+            "EMAIL": "admin.smktasekutara2@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TASEK UTARA",
+            "mongoDB_ID": "62bd4efce7fbb40bd99d3229",
+            "ID": "JEA1002",
+            "PASS": "TUJjea1002",
+            "EMAIL": "admin.smktasekutara@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SMK TUN SYED NASIR ISMAIL",
+            "mongoDB_ID": "62bc72105ca4f672d36f0aa1",
+            "ID": "JEA1003",
+            "PASS": "Tsnijea1003",
+            "EMAIL": "admin.smktunsyednasirismail@gmail.com",
+            "PASSWORD": "password"
+        },
+        {
+            "NAME": "SR AGAMA BERSEPADU JOHOR BAHRU",
+            "mongoDB_ID": "62be67f8c3920f72b6d4ce0a",
+            "ID": "JCT1001",
+            "PASS": "JCT1001disp",
+            "EMAIL": "admin.srabjohorbahru@gmail.com",
+            "PASSWORD": "password"
+        }
+    ]
+}
