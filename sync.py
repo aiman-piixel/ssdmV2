@@ -14,6 +14,7 @@ import glob2
 import pandas as pd
 import sys
 import json
+import openpyxl
 
 #return day value in dropdown
 def return_day(DaySeries):
@@ -132,7 +133,7 @@ with open(configPath, 'r') as jsonfile:
     config = json.load(jsonfile)
 
 #load required details from excel
-df_login = pd.read_excel(str(login_path))
+df_login = pd.read_excel(str(login_path), engine='openpyxl')
 schoolName = df_login['NAME']
 ssdmID = df_login['ssdmID']
 ssdmPass = df_login['ssdmPass']
@@ -209,7 +210,7 @@ for i in range(len(schoolName)) :
                     print("Remaining submissions :"+ str(totalStudent))
                     #update sync status
                     synced[x]=2
-                    df['Synced'] = synced
+                    df['synced'] = synced
                     df.to_csv(csvFiles[i], index=False)
                     continue
                 name_search = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR , "input[name='nama']")))        
@@ -223,7 +224,7 @@ for i in range(len(schoolName)) :
                     print("Remaining submissions :"+ str(totalStudent))
                     #update sync status
                     synced[x]=2
-                    df['Synced'] = synced
+                    df['synced'] = synced
                     df.to_csv(csvFiles[i], index=False)
                     continue
                 wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(),'Papar Kes')]"))).click()
@@ -284,7 +285,7 @@ for i in range(len(schoolName)) :
                         best_match_option = option
 
                 # Check if a best match was found and select it
-                if best_match_option is not None or teacherName[x] == NULL:
+                if best_match_option is not None or teacherName[x] == None:
                     select.select_by_visible_text(best_match_option.text)
                 else:
                     # Handle the case when no match was found
@@ -297,7 +298,7 @@ for i in range(len(schoolName)) :
                 
                 #update sync status
                 synced[x]=1
-                df['Synced'] = synced
+                df['synced'] = synced
                 df.to_csv(csvFiles[i], index=False)
                 
                 #handle alert popup
