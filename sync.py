@@ -271,25 +271,28 @@ for i in range(len(schoolName)) :
                 else:
                     select.select_by_value('PM')
                     
-                #select teacher
-                select_cikgu = driver.find_element(By.XPATH, "//select[@name='papar_guru']")
-                select = Select(select_cikgu)
-                
-                best_match_similarity = 0
-                best_match_option = None
-                # Loop through the options and find the best match for the partial name
-                for option in select.options:
-                    similarity = textdistance.jaro_winkler.normalized_similarity(teacherName[x].lower(), option.text.lower())
-                    if similarity > best_match_similarity:
-                        best_match_similarity = similarity
-                        best_match_option = option
-
-                # Check if a best match was found and select it
-                if best_match_option is not None or teacherName[x] == None:
-                    select.select_by_visible_text(best_match_option.text)
-                else:
-                    # Handle the case when no match was found
+                if teacherName[x] == None:
                     select.select_by_index(0)
+                else:
+                    #select teacher
+                    select_cikgu = driver.find_element(By.XPATH, "//select[@name='papar_guru']")
+                    select = Select(select_cikgu)
+                    
+                    best_match_similarity = 0
+                    best_match_option = None
+                    # Loop through the options and find the best match for the partial name
+                    for option in select.options:
+                        similarity = textdistance.jaro_winkler.normalized_similarity(teacherName[x].lower(), option.text.lower())
+                        if similarity > best_match_similarity:
+                            best_match_similarity = similarity
+                            best_match_option = option
+    
+                    # Check if a best match was found and select it
+                    if best_match_option is not None or teacherName[x] == None:
+                        select.select_by_visible_text(best_match_option.text)
+                    else:
+                        # Handle the case when no match was found
+                        select.select_by_index(0)
                                       
                 #click checkbox
                 driver.find_element(By.XPATH, "//input[@type='checkbox']").click()
