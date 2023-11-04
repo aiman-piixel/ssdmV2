@@ -271,7 +271,7 @@ for i in range(len(schoolName)) :
                 else:
                     select.select_by_value('PM')
                     
-                if teacherName[x] == None:
+                if pd.isna(teacherName[x]):
                     select.select_by_index(0)
                 else:
                     #select teacher
