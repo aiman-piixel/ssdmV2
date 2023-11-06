@@ -14,7 +14,6 @@ import glob2
 import pandas as pd
 import sys
 import json
-import openpyxl
 
 #return day value in dropdown
 def return_day(DaySeries):
@@ -122,7 +121,7 @@ def close_driver():
 current_directory = Path.cwd()
 configPath = current_directory / "config.json"
 csv_path = current_directory / "data_ssdm"
-login_path = current_directory / "login_detail.xlsx"
+login_path = current_directory / "login_detail.csv"
 
 # set options for chrome
 chrome_options = webdriver.ChromeOptions()
@@ -133,7 +132,7 @@ with open(configPath, 'r') as jsonfile:
     config = json.load(jsonfile)
 
 #load required details from excel
-df_login = pd.read_excel(str(login_path), engine='openpyxl')
+df_login = pd.read_csv(str(login_path))
 schoolName = df_login['NAME']
 ssdmID = df_login['ssdmID']
 ssdmPass = df_login['ssdmPass']
@@ -271,24 +270,25 @@ for i in range(len(schoolName)) :
                 else:
                     select.select_by_value('PM')
                     
-                if pd.isna(teacherName[x]):
+                #select teacher
+                select_cikgu = driver.find_element(By.XPATH, "//select[@name='papar_guru']")
+                select = Select(select_cikgu)
+                
+                best_match_similarity = 0
+                best_match_option = None
+                
+                if teacherName[x] == None:
                     select.select_by_index(0)
                 else:
-                    #select teacher
-                    select_cikgu = driver.find_element(By.XPATH, "//select[@name='papar_guru']")
-                    select = Select(select_cikgu)
-                    
-                    best_match_similarity = 0
-                    best_match_option = None
                     # Loop through the options and find the best match for the partial name
                     for option in select.options:
                         similarity = textdistance.jaro_winkler.normalized_similarity(teacherName[x].lower(), option.text.lower())
                         if similarity > best_match_similarity:
                             best_match_similarity = similarity
                             best_match_option = option
-    
+
                     # Check if a best match was found and select it
-                    if best_match_option is not None or teacherName[x] == None:
+                    if best_match_option is not None:
                         select.select_by_visible_text(best_match_option.text)
                     else:
                         # Handle the case when no match was found
