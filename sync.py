@@ -277,7 +277,7 @@ for i in range(len(schoolName)) :
                 best_match_similarity = 0
                 best_match_option = None
                 
-                if teacherName[x] == None:
+                if pd.isna(teacherName[x]):
                     select.select_by_index(0)
                 else:
                     # Loop through the options and find the best match for the partial name
