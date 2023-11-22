@@ -1,4 +1,3 @@
-from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -13,119 +12,8 @@ import glob2
 import pandas as pd
 import sys
 import json
-import update_login
-import split
-import download_data
 
-print("Starting script..."); time.sleep(1)
-startD = 0; startM = 0; startY = 0; endD = 0; endM = 0; endY = 0; region = 0; folder=0
-
-print("Would you like to continue from previous session?");
-restart = str(input())
-if restart == "no" or restart == "NO" or restart == "n":
-    print("Key in a number based on state/district :")
-    print("1. PAHANG")
-    print("2. PERAK")
-    print("3. TERENGGANU")
-    print("4. PERLIS")
-    print("5. SELANGOR")
-    print("6. NEGERI SEMBILAN")
-    print("7. JOHOR")
-    print("8. KELANTAN")
-    print("9. KEDAH")
-    print("10. PULAU PINANG")
-    print("11. MELAKA")
-    print("12. SABAH")
-    print("13. SARAWAK")
-    print("14. W.P KUALA LUMPUR")
-    print("15. W.P LABUAN")
-    print("16. W.P PUTRJAYA")
-    print("17. MALAYSIA***")
-    i=0
-    while i < 17:
-        region = int(input())
-        if region < 1 or region > 17:
-            print("Please enter a number between 1 and 17")
-            continue
-        else:
-            break
-        
-    print("Have you downloaded the required csv? [y/n]: ")
-    skipDown = str(input())
-    if skipDown == "no" or skipDown == "NO" or skipDown == "n":
-        print("Do you have access to production DB? [y/n]: ")
-        DBaccess = str(input())
-        if DBaccess == "no" or DBaccess == "NO" or DBaccess == "n":
-            print("Please manually download the required files or place them inside the 'data' folder in the main directory")
-            print("Exiting the script...")
-            exit(None)
-        else:
-            print("Please enter start date and end date")
-            print("Enter the start day --> {day/#/#}")
-            startD = int(input())
-            print("Enter the start month --> {#/month/#}")
-            startM = int(input())
-            print("Enter the start year --> {#/#/year}")
-            startY = int(input())
-            print("Enter the end day --> {day/#/#}")
-            endD = int(input())
-            print("Enter the end month --> {#/month/#}")
-            endM = int(input())
-            print("Enter the end year --> {#/#/year}")
-            endY = int(input())
-            
-            print(f"\nStart date: {startD}/{startM}/{startY}")
-            print(f"Start date: {endD}/{endM}/{endY}")
-
-            print("Press ENTER to confirm. Press any other key to exit script...")
-            enter = str(input())
-            if enter == "":
-                print("...\n")
-            else:
-                print("Exiting script...")
-                exit(None)
-            
-            time.sleep(1)
-            print("Initiating download...")
-            download_data.downnload(startD, startM, startY, endD, endM, endY, region)
-            
-            print("Press ENTER to proceed with syncing. Press any other key to exit and stop syncing process")
-            enter = str(input())
-            if enter == "":
-                print("...\n")
-            else:
-                print("Exiting script...")
-                exit(None)
-                
-    else:
-        print("...\n")
-
-
-    print("How many instances do you want to run?")
-    folder = int(input())
-
-    split.split(folder)
-    update_login.updateLogin(folder, region)
-
-    print(f"\nRunning {folder} window(s) in parallel...")
-
-else:
-    print("How many instance(s) from last session?")
-    folder = int(input())
-    print("Continuing sync from last session...")
-    time.sleep(1)
-
-class AppDirectory():    
-    currentPath = Path.cwd()
-    configPath = currentPath / "config.json"
-    csvPath = currentPath / "data"
-    
-class MainVariable:
-    startDay = startD; startMonth = startM; endYear = startY
-    endDay = endD; endMonth = endM; endYear = endY
-    numFolder = folder; state=region
-
-def main(login_num):
+def sync(login_num, currentDir):
     #return day value in dropdown
     def return_day(driver, DaySeries):
         select_date = driver.find_element(By.XPATH, "//select[@name='_b_hari_mula_tk']")
@@ -229,11 +117,12 @@ def main(login_num):
         except Exception as e:
             print("An error occurred while closing the WebDriver:", e)
     
-    login_path = AppDirectory.currentPath / f"ssdm_split/login_{login_num}.csv"
-    csv_dir = AppDirectory.currentPath / f"ssdm_split/ssdm_{login_num}"
+    login_path = currentDir / f"ssdm_split/login_{login_num}.csv"
+    csv_dir = currentDir / f"ssdm_split/ssdm_{login_num}"
+    config_dir = currentDir / "config.json"
     
     # Read data from the JSON file
-    with open(AppDirectory.configPath, 'r') as jsonfile:
+    with open(config_dir, 'r') as jsonfile:
         config = json.load(jsonfile)
 
     #load required details from excel
@@ -438,21 +327,17 @@ def main(login_num):
                     
         except Exception as e:
             print("An error occured:", e)
-            sys.exit("Error encountered. Stopping the script.")  # Stop the script
+            sys.exit("Error encountered. Stopping the process.")  # Stop the script
         finally:
-            close_driver(driver) #ignore error
+            close_driver(driver)
 
-    print("All submissions have been synced!")
-
-if __name__ == "__main__":
+    print("Completed")
     
-    numList = []
-    while MainVariable.numFolder>0:
-        numList.append(MainVariable.numFolder)
-        MainVariable.numFolder -= 1
-    numList.reverse()
-
-    # Using ProcessPoolExecutor to run functions concurrently in separate processes
-    with ProcessPoolExecutor() as executor:
-        # Map the function over the list of file paths to run them in parallel
-        executor.map(main, numList)
+if __name__ == "__main__":
+    working_dir = Path.cwd()
+    
+    if len(sys.argv) > 1:
+        login_num = int(sys.argv[1])
+        sync(login_num, working_dir)
+    else:
+        print("Please provide number of folder(s) to sync")
