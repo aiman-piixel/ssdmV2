@@ -171,8 +171,7 @@ def sync(login_num, currentDir):
                 amalanID = df['amalanID']
                 remark = df['keterangan']
                 teacherName = df['teacherName']
-                status = df['status']
-                syncedBySchool = df['syncedBySchool'].to_numpy()
+                status = df['status'].to_numpy()
                 synced = df['synced'].to_numpy()
                 
                 # set options for chrome
@@ -201,7 +200,7 @@ def sync(login_num, currentDir):
                         print("This submission has already been synced")
                         print(f"Window {login_num} : {schoolName[i]} --> Remaining submissions :"+ str(totalStudent)+"\n")
                         continue
-                    if syncedBySchool[x]==1:
+                    if status[x]==2:
                         totalStudent-=1
                         print("This submission has already been synced by the school")
                         print(f"Window {login_num} : {schoolName[i]} --> Remaining submissions :"+ str(totalStudent)+"\n")
