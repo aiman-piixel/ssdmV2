@@ -80,7 +80,6 @@ def downnload(startYear, startMonth, startDay, endYear, endMonth, endDay, region
     #load school detail from config
     school = config[state_num(region)]
     synced = 0
-    syncedBySchool = 0
 
     for row in school:
         # Define the filter criteria using the ObjectId instance
@@ -94,8 +93,6 @@ def downnload(startYear, startMonth, startDay, endYear, endMonth, endDay, region
         
         #turn query result into dataframe
         df = pd.DataFrame(list(results))
-        df['syncedBySchool'] = syncedBySchool
-        df['syncedBySchool'] = df.apply(update_column, axis=1)
         df['synced'] = synced
         
         #set all filtered item to inactive (1:active, 2:inactive)
