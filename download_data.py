@@ -95,9 +95,6 @@ def downnload(startYear, startMonth, startDay, endYear, endMonth, endDay, region
         df = pd.DataFrame(list(results))
         df['synced'] = synced
         
-        #set all filtered item to inactive (1:active, 2:inactive)
-        results = DBdoc.update_many(filter_criteria, {"$set": {"status": 2}})
-        
         #do not print to csv if empty
         if df.empty:
             print(row['NAME'] + " has no submissions")
@@ -106,6 +103,9 @@ def downnload(startYear, startMonth, startDay, endYear, endMonth, endDay, region
         #output to csv
         df.to_csv(str(download_dir) + "/" + row['NAME'] + ".csv", index=False)
         print(row['NAME'] + " data has been generated")
+        
+        #set all filtered item to inactive (1:active, 2:inactive)
+        results = DBdoc.update_many(filter_criteria, {"$set": {"status": 2}})
         
     DBclient.close()
 
