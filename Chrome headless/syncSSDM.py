@@ -177,6 +177,7 @@ def sync(login_num, currentDir):
                 # set options for chrome
                 chrome_options = webdriver.ChromeOptions()
                 chrome_options.add_argument("--disable-gpu")
+                chrome_options.add_argument("--headless")
                 #initiate chrome session
                 driver = webdriver.Chrome(options=chrome_options)
                 wait = WebDriverWait(driver, 10)
@@ -205,7 +206,7 @@ def sync(login_num, currentDir):
                         print("This submission has already been synced by the school")
                         print(f"Window {login_num} : {schoolName[i]} --> Remaining submissions :"+ str(totalStudent)+"\n")
                         #update sync status
-                        synced[x]=2
+                        synced[x]=3
                         df['synced'] = synced
                         df.to_csv(csvFiles[i], index=False)
                         continue
@@ -311,7 +312,7 @@ def sync(login_num, currentDir):
                     print("Sync is successful!")
                     print(f"Window {login_num} : {schoolName[i]} --> Remaining submissions :"+ str(totalStudent)+"\n")
 
-                    driver.find_element(By.XPATH, "//a[@href='kemaskini_murid.cfm']").click()
+                    wait.until(EC.visibility_of_element_located((By.XPATH, "//a[@href='kemaskini_murid.cfm']"))).click()
                 
                 clear_output()
                 print("Syncing for " +schoolName[i]+ " is done")

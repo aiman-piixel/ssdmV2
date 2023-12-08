@@ -1,0 +1,18 @@
+{
+    "DATABASE":
+    {
+        "connection": "your db connection here",
+        "collection": "-----",
+        "document": "-----"
+    },
+    "JB_DETAIL": [
+        {
+            "NAME": "KV (ERT) AZIZAH",
+            "mongoDB_ID": "------------------",
+            "ID": "-------",
+            "PASS": "---------",
+            "EMAIL": "-------------------",
+            "PASSWORD": "password"
+        }
+    ]
+}

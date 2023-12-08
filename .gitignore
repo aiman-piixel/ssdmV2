@@ -2,4 +2,7 @@
 data/
 ssdm_split/
 __pycache__/
+Chrome/__pycache__/
+Firefox/__pycache__/
 config.json
+geckodriver.log
