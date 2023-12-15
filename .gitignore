@@ -7,3 +7,4 @@ Firefox/__pycache__/
 config.json
 geckodriver.log
 .ipynb_checkpoints
+studentqr.pem
