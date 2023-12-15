@@ -32,7 +32,7 @@ $ conda activate py
 <p>3. While the 'py' environment is active install additional packages using pip</p>
 
 ```
-$ pip install openpyxl selenium glob2 textdistance pymongo pandas ipython ipykernel natsort
+$ pip install openpyxl selenium glob2 textdistance pymongo pandas ipython ipykernel natsort sshtunnel
 ```
 
 <p>4. To use Selenium with Google Chrome you'll need the Chrome WebDriver. Identify the correct version of your Google Chrome's browser so you know which version of the chrome webdriver that you need to install</p>
