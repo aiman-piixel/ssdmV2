@@ -106,7 +106,9 @@ def downnload(startYear, startMonth, startDay, endYear, endMonth, endDay, region
                             }
 
             # Define the projection to exclude specific fields (e.g., "field_to_exclude")
-            exclude = {"_id": 0, "tempat":0, "ic":0, "userID":0, "schoolID":0, "method":0, "updated_at":0, "created_at":0, "submissionID":0}
+            exclude = {"_id": 0, "tempat":0, "ic":0, "userID":0, "schoolID":0, "teacherID":0,
+            "studentID":0, "kelasID":0, "positiveID":0, "method":0, "updated_at":0,
+            "created_at":0, "submissionID":0, "year":0}
             results = collection.find(filter_criteria, exclude)
             
             #turn query result into dataframe
